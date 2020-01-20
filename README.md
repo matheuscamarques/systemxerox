@@ -19,3 +19,5 @@ Projeto sistema para um Xerox.
 ## Discussões
 - Padrão MVC.
 - Live Share.
+- Ionic
+- SSH ACESSO REMOTO
