@@ -17,3 +17,5 @@ Projeto sistema para um Xerox.
 - Envio de email formatado , com valor de páginas e valor apróximado de impressões.
 
 ## Discussões
+- Padrão MVC.
+- Live Share.
