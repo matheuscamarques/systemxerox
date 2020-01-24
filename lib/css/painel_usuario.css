@@ -1,0 +1,583 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #FFF;
+}
+
+/* Menu principal -> usuários */
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #212121;
+}
+
+header nav {
+    width: 85%;
+    height: 60px;
+    margin: auto;
+}
+
+header nav #user-logado {
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+header nav #sair {
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+header nav #sair a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+
+header nav #sair a:hover {
+    background-color: #353535;
+}
+
+header nav ul {
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+header nav ul li a {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    background-color: #353535;
+}
+
+header nav ul li button {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: #212121;
+}
+
+header nav ul li button:hover {
+    background-color: #353535;
+}
+
+header nav .btn-menu {
+    font-size: 30px;
+    color: #FFF;
+    float: left;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+} 
+
+#check {
+    display: none;
+}
+
+/* Painel de pedidos -> usuários */ 
+
+
+section .pedidos {
+    width: 85%;
+    min-height: 250px;
+    margin: auto;
+    background-color: #FFF;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+section .pedidos .cont-header {
+    padding: 5px;
+}
+
+section .pedidos .cont-header label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section .pedidos .cont-header .right {
+    float: right;
+}
+
+section .pedidos .cont-header .right a {
+    width: 100%;
+    text-align: center;
+    padding: 6px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #24292e;
+    border: none;
+    border-radius: 3px;
+}
+
+section .pedidos .cont-section {
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #212121;
+}
+
+section .pedidos .cont-section ul {
+    margin-top: 10px;
+    font-size: 13px;
+    list-style-type: none;
+    padding-left: 0;
+    cursor: pointer;
+}
+  
+section .pedidos .cont-section ul li {
+    border-bottom: #edebe9 1px solid;
+    line-height: 30px;
+    cursor: pointer;
+    height: 32px;
+}
+
+section .pedidos .cont-section li:hover {
+    background-color: #fafafa;
+}
+
+
+section .pedidos .cont-section ul li .left{
+    float: left;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+section .pedidos .cont-section ul li .left .arrow-left {
+    margin-left: 0;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+section .pedidos .cont-section ul li .left .lb-pedidos {
+    padding-left: 35px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+section .pedidos .cont-section ul li .left .bold {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+section .pedidos .cont-section ul li .left span {
+    background-color: #009688;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+section .pedidos .cont-section ul li .right {
+    float: right;
+    padding-right: 5px;
+}
+
+section .pedidos .cont-section ul li .right a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+}
+
+section .pedidos .cont-section ul li .right a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+section .pedidos .cont-section div form {
+    margin-top: 20px;
+    font-family: sans-serif;
+    min-height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+section .pedidos .cont-section div form .frm-dds-usr {
+    width: 80%;
+    margin: auto;
+}
+
+section .pedidos .cont-section div form table {
+    width: 60%;
+}
+
+section .pedidos .cont-section div form table tbody .identificador {
+    width: 100px;
+    text-align: right;
+    border-right: 15px solid transparent;
+    border-bottom: 8px solid transparent;
+    color: #24292e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+section .pedidos .cont-section div form table tbody #req::after {
+    padding-left: 5px;
+    color: #cb2431;
+    content: "*";
+}
+
+section .pedidos .cont-section div form table tbody .dados-user {
+    width: 300px;
+    border-bottom: 8px solid transparent;
+}
+
+section .pedidos .cont-section div form table tbody .dados-user input[type="text"], [type="email"], [type="password"]{
+    width: 100%;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: #24292e;
+    border: 1px solid #d1d5da;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+}
+
+section .pedidos .cont-section div form table tbody .dados-user input[type="file"] {
+    width:100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+}
+
+section .pedidos .cont-section div form table tbody .salvar {
+    margin-top: 5px;
+    text-align: right;
+    
+}
+
+section .pedidos .cont-section div form table tbody .salvar input[type="submit"]{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #212121;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+section .pedidos .cont-section #btn-voltar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+}
+
+
+/* Painel de meus dados -> usuários */
+
+section .dados {
+    width: 85%;
+    min-height: 250px;
+    margin: auto;
+    background-color: #FFF;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+section .dados .cont-header {
+    padding: 5px;
+}
+
+section .dados .cont-header label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section .dados .cont-section {
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #212121;
+}
+
+section .dados .cont-section details {
+    border: 1px solid #dddfe2;
+    margin-top: 8px;
+}
+
+section .dados .cont-section details summary::-webkit-details-marker {
+    display: none;
+}
+
+section .dados .cont-section details summary {
+    width: 100%;
+    padding-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+    border-style: none;
+    background: #f5f6f7;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+section .dados .cont-section details div {
+    padding: 20px;
+    width: 100%;
+}
+
+section .dados .cont-section details div form {
+    font-family: sans-serif;
+    min-height: 100px;
+    width: 90%;
+}
+
+section .dados .cont-section details div form .frm-dds-usr{
+    width: 80%;
+    margin: auto;
+}
+
+section .dados .cont-section details div form table {
+    width: 80%;
+}
+
+section .dados .cont-section details div form table tbody .identificador {
+    width: 100px;
+    text-align: right;
+    border-right: 15px solid transparent;
+    border-bottom: 8px solid transparent;
+    color: #24292e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+section .dados .cont-section details div form table tbody #req::after {
+    padding-left: 5px;
+    color: #cb2431;
+    content: "*";
+}
+
+section .dados .cont-section details div form table tbody .dados-user {
+    width: 300px;
+    border-bottom: 8px solid transparent;
+}
+
+section .dados .cont-section details div form table tbody .dados-user input[type="text"], [type="email"], [type="password"]{
+    width: 100%;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: #24292e;
+    border: 1px solid #d1d5da;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 3px;
+}
+
+section .dados .cont-section details div form table tbody .salvar {
+    margin-top: 5px;
+    text-align: right;
+}
+
+section .dados .cont-section details div form table tbody .salvar input[type="submit"]{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: none;
+    vertical-align: middle;
+    background-color: #212121;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+/* Painel de chat -> usuários */
+
+section .chat {
+    width: 85%;
+    min-height: 250px;
+    margin: auto;
+    background-color: #FFF;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+section .chat .cont-header {
+    padding: 5px;
+}
+
+section .chat .cont-header label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+section .chat .cont-section {
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #212121;
+}
+
+
+@media (max-width: 952px){
+
+    header nav {
+        width: 90%;
+    }
+
+    header nav .btn-menu {
+        display: block;
+    }
+
+    header nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 60px;
+        left: -100%;
+        background-color: #3f51b5;
+        text-align: center;
+        transition: all .5s;
+        margin-left: 0px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    header nav ul li a:hover {
+        background: none;
+
+    }
+
+    #check:checked ~ ul {
+        left: 0px;
+    }
+
+    section .container {
+        width: 95%;
+    }
+
+    /* Peinel de usuarios -- Dados */
+
+    section .dados {
+        width: 100%;
+    }
+
+    section .dados .cont-section details div {
+        padding: 8px;
+        width: 100%;
+    }
+
+    section .dados .cont-section details div form {
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    section .dados .cont-section details div form .frm-dds-usr {
+        width: 100%;
+        padding: 0px;
+    } 
+
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.alert {
+    padding: 20px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sucesso {
+    background-color: #5fbb6d;
+}
+
+.erro {
+    background-color: #f44336;
+}
+
+.alert .btn-close {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}

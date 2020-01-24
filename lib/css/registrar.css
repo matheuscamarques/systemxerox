@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.registrar {
+    background-color: #F9F9F9;
+    font-family: sans-serif;
+}
+
+.registrar #registrar-usuario {
+    max-width: 340px;
+    min-height: 200px;
+    margin: 40px auto 0;
+    background-color: #F9F9F9;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.registrar #registrar-usuario h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    box-sizing: border-box;
+    color: #24292e;
+}
+
+.registrar #registrar-usuario form {
+    background-color: #FFF;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px solid #d8dee2;
+}
+
+.registrar #registrar-usuario form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #24292e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.registrar #registrar-usuario form label::after {
+    padding-left: 5px;
+    color: #cb2431;
+    content: "*";
+}
+
+.registrar #registrar-usuario form input[type="text"], [type="email"], [type="password"] {
+    width: 100%;
+    padding: 6px 8px;
+    font-size: 16px;
+    color: #24292e;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+.registrar #registrar-usuario form input[type="submit"] {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #24292e;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #24292e;
+}
+
+.registrar #registrar-usuario form input[type="text"]:focus {
+    border-color: #24292e;
+    box-shadow: 0 0 2px 0 #24292e;
+}
+
+
+.registrar #registrar-usuario form input[type="email"]:focus {
+    border-color: #24292e;
+    box-shadow: 0 0 2px 0 #24292e;
+}
+
+
+.registrar #registrar-usuario form input[type="password"]:focus {
+    border-color: #24292e;
+    box-shadow: 0 0 2px 0 #24292e;
+}
+
+.registrar #registrar-usuario form input[type="submit"]:hover {
+    background-color: #10151a;
+}
+
+.registrar #registrar-usuario p {
+    display: block;
+    margin-top: 30px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.registrar #registrar-usuario p a {
+    text-decoration: none;
+    color: #24292e;
+}
+
+@media screen and (max-width: 900px) {
+    .registrar #registrar-usuario {
+        max-width: 50%;
+        margin: 50px auto 0;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .registrar #registrar-usuario {
+        max-width: 70%;
+        margin: 50px auto 0;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .registrar #registrar-usuario {
+        max-width: 90%;
+        margin: 50px auto 0;
+    }   
+}
